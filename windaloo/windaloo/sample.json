@@ -2,51 +2,51 @@
    {
       "id":1,
       "name":"Mario Stallone",
-      "imageName":"mario.png"
+      "location":"Bangalore"
    },   
    {
       "id":2,
       "name":"Kumaran Venkataraman",
-      "imageName":"kumaran.png"
+      "location":"Bangalore"
    },
    {
       "id":3,
       "name":"Senthil V Kumar",
-      "imageName":"senthil.png"
+      "location":"Bangalore"
    },
    {
       "id":4,
       "name":"Brock Lesnar",
-      "imageName":"brock.png"
+      "location":"WWE"
    },
    {
       "id":5,
       "name":"Sheldon Cooper",
-      "imageName":"sheldon.png"
+      "location":"Saturn"
    },
    {
       "id":6,
       "name":"Bolt",
-      "imageName":"bolt.png"
+      "location":"Crypton"
    },
    {
       "id":7,
       "name":"Tim Cook",
-      "imageName":"tcook.png"
+      "location":"Infinite Loop"
    },
    {
       "id":8,
       "name":"Bob Mansfield",
-      "imageName":"bob.png"
+      "location":"Infinite Loop"
    },
    {
       "id":9,
       "name":"John Cena",
-      "imageName":"cena.png"
+      "location":"You cant see him"
    },
    {
       "id":10,
       "name":"Dexter",
-      "imageName":"dexter.png"
+      "location":"Laboratory"
    }
 ]

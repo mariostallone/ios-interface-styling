@@ -7,7 +7,7 @@
 //
 
 #import "MasterViewController.h"
-
+#import "NUIRenderer.h"
 #import "DetailViewController.h"
 
 @interface MasterViewController () {
@@ -34,6 +34,7 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    //[NUIRenderer renderButton:self.navigationItem.rightBarButtonItem];
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 

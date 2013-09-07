@@ -41,6 +41,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell"];
     cell.textLabel.text = [[_data objectAtIndex:indexPath.row] valueForKey:@"name"];
+    cell.detailTextLabel.text = [[_data objectAtIndex:indexPath.row] valueForKey:@"location"];
     return cell;
 }
 
